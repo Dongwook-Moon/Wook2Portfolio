@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Dr.G</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Dr.G
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="img/home1.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            <p class="red">레드</p> 블레미쉬<br>클리어 퀵<br>수딩팩 70매
+                        </h1>
+                        <p class="home__description">
+                            정제수가 아닌 병풀 추출물 89%가 함유되어<br>건조하고 민감해진 피부를 즉각 진정 효과
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            자세히 보기 <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Follow 
+                        </span>
+
+                        <div class="home__social-links">
+                            <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="img/about2.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            닥터지의 제조 원칙
+                        </h2>
+
+                        <p class="about__description">
+                            닥터지 전 제품은 피부 전문가들의 기술력과 피부 자극 및 민감성<br>테스트를 통해 더욱 철저하게 연구되고 있습니다.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                피부 전문가의 기술력
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                피부 자극/민감성 테스트 완료
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                건강한 피부 습관
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                각질&보습&자외선 케어
+                            </p>
+                        </div>
+
+                        <a href="#" class="button--link button--flex">
+                            쇼핑하기 <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        고객을 위한 서비스
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">닥터지 Ai 피부분석</h3>
+                            <p class="steps__card-description">
+                                더모코스메틱의 피부과학과 37만 피부 데이터로 학습된 AI 기술이 만나, 우리에게 보다 최적화된 피부 분석 서비스가 탄생했습니다.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">1:1 스킨 멘토링</h3>
+                            <p class="steps__card-description">
+                                내 피부에 대한 고민이나 궁금증을 편안하게 알려주세요. 닥터지 피부 전문가들의 1:1 카운셀링으로
+                                피부 고민에 적합한 솔루션을 제공합니다.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Ai 챗봇</h3>
+                            <p class="steps__card-description">
+                                보다 많은 사용자들이 피부 과학을 기반으로 한 닥터지 제품과 함께 다양한 진단 및 컨설팅 서비스 를 이용할 수 있도록 프로그램을 선진화해 나갑니다.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    오늘의 <br> 추천 상품
+                </h2>
+
+                <p class="product__description">
+                    피부 고민을 가진 이들의 마음을 알기에, 단 하나의 제품도 가볍게 만들지 않습니다.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="img/product01.png" alt="" class="product__img">
+
+                        <h3 class="product__title">레드 블레미쉬 수딩 토너</h3>
+                        <span class="product__price">23,200 원</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="img/product02.png" alt="" class="product__img">
+
+                        <h3 class="product__title">그린 마일드 업 선 에센스</h3>
+                        <span class="product__price">19,900 원</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="img/product03.png" alt="" class="product__img">
+
+                        <h3 class="product__title">레드 블레미쉬 수딩 팩</h3>
+                        <span class="product__price">18,000 원</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="img/product04.png" alt="" class="product__img">
+
+                        <h3 class="product__title">그린 딥 포어 클리어 폼</h3>
+                        <span class="product__price">15,000 원</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="img/product05.png" alt="" class="product__img">
+
+                        <h3 class="product__title">레드 블레미쉬 시카 크림</h3>
+                        <span class="product__price">26,600 원</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="img/product06.png" alt="" class="product__img">
+
+                        <h3 class="product__title">레드 블레미쉬 마일드 필링</h3>
+                        <span class="product__price">19,000 원</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    사회를 위한 <br> 공헌활동
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    점자 표기
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    닥터지는 누구나 원하는 제품을 선택하고 소비자의 권리를 누릴 자격이 있다고 생각합니다. 닥터지의 전 제품에는 시각 장애인을 위한 점자 표기가 되어 있습니다.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    보다 쉬운 분리배출 가이드 제공
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    지류 패키지 확대로 분리수거와 분해가 용이하게, 제품 라벨에 분리배출 가이드를 보다 더 상세하게 제공하여 정확한 분리수거를 위해 노력합니다.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    초록우산 정기 후원
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    닥터지는 피부 고민으로 어려움을 겪는 어린이들을 돕기 위해 초록우산 어린이재단과 인연을 맺고 정기적인 후원을 실시합니다. 또한 닥터지 베이비 마일드 업 선 구매 시, 구매 금액의 10%를 초록 우산 어린이 재단에 기부합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    피부과학연구재단 정기 지원
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    닥터지는 국내 피부과학 연구 역량과 경쟁력 향상을 위해 피부과학연구 재단에 매년 연구비를 지원합니다. 국내 피부과 전공의와 교수들의 학술 지원과 함께 피부 과학 연구를 위해 노력하며 피부과학으로 사람들을 건강하고 행복하게 만들자는 기업 철학이 담긴 공헌 활동을 전개합니다.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    친환경 종이 포장재
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    튼튼한 완충은 물론, 100% 재활용이 가능한 친환경 종이 완충제 ‘지아미’를 사용 하여 과다한 포장재 사용 및 폐기물의 발생을 줄이기 위해 노력합니다.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    FSC® 인증지 및 소이잉크 사용
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    지속가능한 벌목과 공정으로 생산되는 FSC® 인증지와 소이잉크, 감귤지 등 자연에서 얻은 부산물로 만든 원료를 대폭 적용한 2차 포장재를 사용합니다. 자원 순환이 가능한 디자인에 대한 끊임없는 고민으로 제품을 개발합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        Dr.G
+                    </a>
+
+                    <h3 class="footer__title">
+                        닥터지 뉴스레터 구독하기
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Enter your email" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Subscribe
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">(주)고운세상코스메틱</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">경기도 성남시 분당구</li>
+                        <li class="footer__information">분당로 55 퍼스트타워 11층</li>
+                        <li class="footer__information">사업자등록번호<br>209-81-23948</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">SNS</h3>
+
+                    <ul class="footer__data">
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        결제 가능한 신용카드
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="img/card1.png" alt="" class="footer__card">
+                        <img src="img/card2.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Wook2Design. All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
