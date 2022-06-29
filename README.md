@@ -9,4 +9,6 @@
 
 - 스크롤 관련 스크립트는 'Scrollreveal' 사이트에서 사용하였습니다.
 
+- 디자인 편집은 Adobe 대신 Affinity 프로그램을 사용하였습니다.
+
 ![wook2portfolio](https://user-images.githubusercontent.com/78959344/176374614-8876e489-3f79-4d69-af4b-762901f312a1.png)
