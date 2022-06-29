@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ===== BOX ICONS ===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Wook2Login</title>
+</head>
+<body>
+  <div class="login">
+    <div class="login__content">
+      <div class="login__img">
+        <img src="img/img-login.svg" alt="">
+      </div>
+
+      <div class="login__forms">
+        <form action="" class="login__registre" id="login-in">
+          <h1 class="login__title">Wook2Login</h1>
+
+          <div class="login__box">
+            <i class="bx bx-user login__icon"></i>
+            <input type="text" placeholder="아이디" class="login__input">
+          </div>
+
+          <div class="login__box">
+            <i class="bx bx-lock-alt login__icon"></i>
+            <input type="password" placeholder="비밀번호" class="login__input">
+          </div>
+
+          <a href="#" class="login__forgot">아이디 / 비밀번호 찾기</a>
+
+          <a href="#" class="login__button">로그인</a>
+
+          <div>
+            <span class="login__account">계정이 없으십니까?</span>
+            <span class="login__signin" id="sign-up">회원가입</span>
+          </div>
+        </form>
+
+        <form action="" class="login__create none" id="login-up">
+          <h1 class="login__title">회원 가입</h1>
+
+          <div class="login__box">
+            <i class="bx bx-user login__icon"></i>
+            <input type="text" placeholder="아이디" class="login__input">
+          </div>
+
+          <div class="login__box">
+            <i class="bx bx-at login__icon"></i>
+            <input type="text" placeholder="이메일" class="login__input">
+          </div>
+
+          <div class="login__box">
+            <i class="bx bx-lock-alt login__icon"></i>
+            <input type="text" placeholder="비밀번호" class="login__input">
+          </div>
+
+          <a href="#" class="login__button">가입하기</a>
+
+          <div>
+            <span class="login__account">이미 계정이 있습니까?</span>
+            <span class="login__signup" id="sign-in">로그인하기</span>
+          </div>
+
+          <div class="login__social">
+            <a href="#" class="login__social-icon"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="login__social-icon"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="login__social-icon"><i class="bx bxl-google"></i></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== MAIN JS ===== -->
+  <script src="js/main.js"></script>
+</body>
+</html>
