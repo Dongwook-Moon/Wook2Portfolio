@@ -9,3 +9,4 @@
 
 - 스크롤 관련 스크립트는 'Scrollreveal' 사이트에서 사용하였습니다.
 
+![wook2portfolio](https://user-images.githubusercontent.com/78959344/176373803-30e12c7f-0d26-4f46-ab13-f3990dad4239.png)
